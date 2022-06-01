@@ -1,0 +1,18 @@
+ArrayList :
+
+1. Internally uses dynamic array.
+2. Manipulation is slow as bit shifting is required in memory.
+3. Can act as a list only because it implements List only.
+4. Better for storing and accessing data.
+5. Memory location for elements is contiguous.
+6. Default capacity of 10 is initialized.
+
+
+LinkedList :
+
+1. Internally uses double linked list.
+2. Manipulation is faster as bit shifting is required in memory.
+3. Can act as a list and queue both because it implements List and Deque interfaces.
+4. Better for manipulating data.
+5. Memory location for elements is not contagious.
+6. No default capacity. Empty list is created initially.

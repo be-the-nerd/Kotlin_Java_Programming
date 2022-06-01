@@ -1,0 +1,18 @@
+ArrayList :
+
+1. ArrayList is not synchronized.
+2. ArrayList increments 50% of the current array size.
+3. ArrayList is not a legacy class. Introduced in JDK 1.2
+4. ArrayList is fast because it is non-synchronized.
+5. ArrayList uses theIterator interface to traverse the elements.
+
+
+Vector :
+
+1. Vector is synchronized.
+2. Vector increments 100%, doubles the array size.
+3. Vector is a legacy class.
+4. Vector is slow as it is synchronized i.e., in multithreading environment,
+it holds the other threads in a runnable or non-runnable state until the current
+thread releases the lock of the object.
+5. Vector can use Iterator interface or Enumeration interface to traverse the elements.
